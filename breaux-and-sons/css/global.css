@@ -18,6 +18,15 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
+.page-fade-out {
+  animation: pageFadeOut 0.3s ease-in forwards !important;
+}
+
+@keyframes pageFadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
 /* Mobile Slide-in Menu Classes */
 #mobile-menu {
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
